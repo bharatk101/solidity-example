@@ -6,27 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "addValue",
-				"outputs": [],
+				"inputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "array1D",
+				"inputs": [],
+				"name": "filterList",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -41,72 +27,29 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
+						"name": "_number",
 						"type": "uint256"
 					}
 				],
-				"name": "array2d",
+				"name": "isEven",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256"
+						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getLength",
+				"name": "isOwner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "myArray",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "stringarray",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -126,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Arrays.sol": "myContract"
+			"contracts/Condtions.sol": "myContract"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -140,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Arrays.sol": {
-			"keccak256": "0x846b54d1592f2cee64375629a7b185855175a142e55c20f1cc333801c8ec9cab",
+		"contracts/Condtions.sol": {
+			"keccak256": "0x00d76fb0edea2b9e58571d58a992aa4d95457ab4a5a5b65c7ca15062f2c6863a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e92a7f816da5b8e953145c9cc82b545d69207dc6e47631afa52b75253681ec55",
-				"dweb:/ipfs/QmZ3rU7Gz44PDjz3Lvj7YsUZE8tFaSMxkS8npv89oFfNp3"
+				"bzz-raw://b6e43bc7867d7fbb6f123df33ba470ade3535233eed99bbe1122caff347d2543",
+				"dweb:/ipfs/QmeAmdVbjQ53C7VNhT2xgoGj221Zog1x3qq4L3gTr4GKWV"
 			]
 		}
 	},
