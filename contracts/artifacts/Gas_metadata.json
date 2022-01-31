@@ -1,20 +1,33 @@
 {
 	"compiler": {
-		"version": "0.8.4+commit.c7e474f2"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "IncrementCount",
+				"name": "forever",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "gasPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,9 +52,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Arrays_Mappings.sol": "yContract"
+			"contracts/Gas.sol": "Gas"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -53,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Arrays_Mappings.sol": {
-			"keccak256": "0x6bca20618d8fa3ee3c05236edb7c66775cb7f2076ed5720efad6687e8118c6a6",
+		"contracts/Gas.sol": {
+			"keccak256": "0xebd73dfb3b475e76bc969d8f07fb0c7855e7c2a0383cece2c2908167dd1d718e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://72cbe3429fb609ae9c602c4df2523fa5ee4b34287ec36f2421fb5b9de6c73c9d",
-				"dweb:/ipfs/QmRQ9HqB6ih3TbWjNwAqLdNwQqhE1py8pTbbMacH67FDMj"
+				"bzz-raw://10601bc90d1e28f858ce69eb30dbbd6007cc9073047a670ac863c76713871473",
+				"dweb:/ipfs/QmPUafcf9jRv7s8gi8u5ttQqeQoDrxgB9figXTXxps2bJZ"
 			]
 		}
 	},
